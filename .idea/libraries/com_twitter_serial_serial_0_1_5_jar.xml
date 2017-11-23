@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="com.twitter.serial:serial:0.1.5@jar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter.serial/serial/0.1.5/605bd0332a3c692bea42b7571879e0fcc5d5c205/serial-0.1.5.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.twitter.serial/serial/0.1.5/85994b75593c86549df04070ec40f9e68f81678e/serial-0.1.5-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
