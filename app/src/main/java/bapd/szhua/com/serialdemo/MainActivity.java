@@ -3,6 +3,7 @@ package bapd.szhua.com.serialdemo;
 import android.content.Intent;
 import android.os.Parcel;
 import android.os.Parcelable;
+import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -11,13 +12,10 @@ import android.widget.TextView;
 import com.twitter.serial.serializer.CollectionSerializers;
 import com.twitter.serial.serializer.CoreSerializers;
 import com.twitter.serial.serializer.Serializer;
-import com.twitter.serial.stream.bytebuffer.ByteBufferSerial;
 import com.twitter.serial.stream.legacy.LegacySerial;
 
 import java.io.IOException;
-import java.nio.charset.Charset;
 import java.util.Arrays;
-import java.util.Collections;
 import java.util.List;
 
 /*
@@ -31,8 +29,9 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        //============================Twitter.Serial=====================================================
 
+
+        //============================Twitter.Serial=====================================================
         SubObject subObject = new SubObject("1", "szhua");
         ExampleObject exampleObject = new ExampleObject(2, "fff", "www.ffff", subObject);
 
